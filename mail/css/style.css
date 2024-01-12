@@ -30,3 +30,34 @@ a {
 
 body {
 } */
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  background-color: bisque;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: aquamarine;
+  color: blue;
+}
+
+h4,
+#random-player-number,
+#random-computer-number {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#winner {
+  margin: 40px;
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  padding: 20px;
+  border: 2px solid grey;
+}
