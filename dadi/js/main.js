@@ -2,7 +2,7 @@
 const mails = [
   "mario.bianchi@mail.com",
   "gloria.bimbi@mail.com",
-  "niccolo.sartori@mail.com",
+  "tiziano.nicolai@mail.com",
 ];
 console.log(mails[0]);
 console.log(mails[1]);
