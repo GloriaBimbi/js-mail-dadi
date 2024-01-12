@@ -12,18 +12,13 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
 - creo due variabili collegate al DOM (per il numero casuale del giocatore e del computer)
 - creo una costante collegata al DOM per il vincitore
-
 - creo un array contenente i numeri da 1 a 6
-- creo un ciclo che si ripete due volte
-
-  - primo giro:
-    - creo una variabile che prenda il valore di uno degli elementi dell'array
-    - la collego ad una costate del DOM che identifica il numero causale per il giocatore
-  - secondo giro:
-    - creo una variabile che prenda il valore di uno degli elementi dell'array
-    - la collego ad una costate del DOM che identifica il numero causale per il computer
-
+- creo un numero casuale per il giocatore
+- creo un numero casuale per il computer
 - creo un if che confronta i due numeri casuali
   - SE il numero del giocatore è maggiore del numero del computer
     - ALLORA nella costante per il vincitore verrà scritto "HAI VINTO!"
-  - ALTRIMENTI nella costante per il vincitore verrà scritto "HAI PERSO..."
+  - ALTRIMENTI SE
+    - nella costante per il vincitore verrà scritto "RITENTA, sarai più fortunato"
+  - ALTRIMENTI
+    - nella costante per il vincitore verrà scritto "è stata una bella partita finita in pareggio, CONTINUA A GIOCARE"
