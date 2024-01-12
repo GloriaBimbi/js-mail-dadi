@@ -9,24 +9,22 @@ console.log(mails[1]);
 console.log(mails[2]);
 
 // - crea un input in cui l'utente puà inserire la sua mail
-const mailUserElement = document.getElementById("mail-user").value;
-console.log("mailUserElement");
+const mailUserElement = document.getElementById("mail-user");
 
 // - crea una costante per il bottone Inizia
 const startButton = document.getElementById("start-button");
 
-//creo due variabili per il login
-let logInResult;
-
 // crea un ascoltatore di evento che collega il click del pulsante alle azioni successive
 startButton.addEventListener("click", function () {
+  const email = mailUserElement.value;
+  //creo delle variabili per il login
+  let logInResult;
+
   // - crea un ciclo for che si ripeta del numero degli elementi dell'array
-  for (i = -1; i < mails.length; i++) {
+  for (i = 1; i < mails.length; i++) {
     // - SE il valore dell'input è uguale ad almeno un elemento dell'array
-    if (mailUserElement == mails[i]) {
+    if (email == mails[i]) {
       logInResult = "logInYes";
-    } else if (mailUserElement != mails[i]) {
-      logInResult = "logInNo";
     }
     console.log(mails[i]);
   }
