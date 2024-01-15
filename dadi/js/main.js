@@ -26,7 +26,6 @@ startButton.addEventListener("click", function () {
     if (email == mails[i]) {
       logInResult = "logInYes";
     }
-    console.log(mails[i]);
   }
 
   //- crea una prompt che dice se il log in è riuscito o meno
